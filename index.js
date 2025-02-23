@@ -1,7 +1,13 @@
 (function ($) {
   $(function () {
+    // メニューを開閉する処理
     $("#nav-toggle").on("click", function () {
       $("body").toggleClass("open");
+    });
+
+    // ナビゲーションリンクがクリックされたらメニューを閉じる
+    $("#gloval-nav a").on("click", function () {
+      $("body").removeClass("open");
     });
   });
 })(jQuery);
@@ -15,4 +21,3 @@ $(function () {
     $(this).toggleClass("open");
   });
 });
-
