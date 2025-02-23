@@ -460,7 +460,7 @@ picture {
 @media screen and (max-width: 768px) {
   .footer-list {
     margin-top: 70px;
-    justify-content: centerr;
+    justify-content: center;
   }
 }
 .footer-listWrap {
@@ -473,11 +473,6 @@ picture {
   .footer-listWrap {
     display: block;
   }
-}
-.footer-onlineshop::before {
-  content: url("../icon_cart_black.svg");
-  vertical-align: middle;
-  padding-right: 3px;
 }
 .footer-onlineshop {
   display: flex;
@@ -631,7 +626,7 @@ picture {
 }
 @media screen and (max-width: 768px) {
   .concept-image {
-    margin-left: -80px;
+    margin-left: -180px;
     z-index: -1;
   }
 }
