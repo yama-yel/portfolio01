@@ -910,12 +910,13 @@ picture {
 }
 @media screen and (max-width: 768px) {
   .parallax_content {
-    background-position: 50% 40%; /* 横方向50%、縦方向40%に調整してズラす */
+    background-position: center center; /* 横方向50%、縦方向40%に調整してズラす */
+    background-size: contain; /* 縦横比を保って全体表示 */
   }
 }
 .parallax_content.img_bg {
   background-image: url(../images/background_img.jpg);
-  background-size: auto; /* 画像が縦横比を保ちながら要素にフィット */
+  background-size: cover; /* 画像が縦横比を保ちながら要素にフィット */
   background-position: center; /* 画像を中央に配置 */
   background-repeat: no-repeat; /* 画像の繰り返しを防止 */
 }
