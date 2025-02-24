@@ -915,7 +915,7 @@ picture {
 }
 .parallax_content.img_bg {
   background-image: url(../images/background_img.jpg);
-  background-size: 100% auto; /* 画像が縦横比を保ちながら要素にフィット */
+  background-size: auto; /* 画像が縦横比を保ちながら要素にフィット */
   background-position: center; /* 画像を中央に配置 */
   background-repeat: no-repeat; /* 画像の繰り返しを防止 */
 }
