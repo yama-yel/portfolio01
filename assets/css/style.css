@@ -905,7 +905,6 @@ picture {
   min-height: 400px;
   background-position: center top;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
