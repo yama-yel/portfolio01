@@ -905,12 +905,14 @@ picture {
   min-height: 400px;
   background-position: center top;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
   .parallax_content {
     background-position: center center; /* 横方向50%、縦方向40%に調整してズラす */
     background-size: contain; /* 縦横比を保って全体表示 */
+    background-attachment: scroll;
   }
 }
 .parallax_content.img_bg {
